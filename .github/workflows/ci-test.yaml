@@ -56,7 +56,7 @@ jobs:
           request_pty: true
           use_insecure_cipher: true
           script: |  
-            echo "Successfully Connected!"
+            echo "Successfully Connected"
             
             # 1.변수 조합 확인 (디버깅 로그) 및 로그인
             echo "Starting deployment for: $DOCKER_USERNAME/$DOCKER_REPO"
